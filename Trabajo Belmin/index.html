@@ -7,16 +7,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
 
     <div class="contenedor">
+        <form id="formulario1">
+            <header>
+                <h1>Belmin Formulario </h1>
+            </header>
+        
             <div class="agrupacion">
                 <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" class="entrada" required>
+                <input type="text" id="nombre" name="nombre" placeholder="Johnny" class="entrada" required>
             </div>
 
             <div class="agrupacion">
                 <label for="apellido">Apellido:</label>
-                <input type="text" id="apellido" name="apellido" class="entrada" required>
+                <input type="text" id="apellido" name="apellido" placeholder="Cardozo" class="entrada" required>
             </div>
 
             <div class="agrupacion">
@@ -31,17 +37,17 @@
 
             <div class="agrupacion">
                 <label for="DNI">Numero de documento:</label>
-                <input type="text" id="DNI" name="DNI" class="entrada" pattern="[0-9]+" required>
+                <input type="text" id="DNI" name="DNI" placeholder="1000..." class="entrada" pattern="[0-9]+" required>
             </div>
 
             <div class="agrupacion">
                 <label for="NacimientoDate">Fecha de nacimiento:</label>
-                <input type="date" id="NacimientoDate" name="NacimientoDate" class="entrada" required>
+                <input type="date" id="NacimientoDate" name="NacimientoDate" placeholder="24/04/2002" class="entrada" required>
             </div>
 
             <div class="agrupacion">
                 <label for="correo">Correo electronico:</label>
-                <input type="email" id="correo" name="correo" class="entrada" required>
+                <input type="email" id="correo" name="correo" placeholder="johnny....@gmail.com" class="entrada" required>
             </div>
 
             <div class="agrupacion">
@@ -58,7 +64,7 @@
                 </div>
             </div>
 
-            <button type="submit" class="boton">Enviar</button>
+            <button type="submit" class="boton" id="boton">Enviar</button>
         </form>
     </div>
 
