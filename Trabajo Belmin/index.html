@@ -21,16 +21,16 @@
 
             <div class="agrupacion">
                 <label for="TipoDocumento">Tipo de documento:</label>
-                <select id="TipoDocumento" name="TipoDocumento" class="form-select" required>
-                    <option value="" disabled selected>Seleccione una opción</option>
-                    <option value="cedula">Cédula de Ciudadanía</option>
+                <select id="TipoDocumento" name="TipoDocumento" class="seleccion" required>
+                    <option value="" disabled selected>Seleccione una opcion</option>
+                    <option value="cedula">Cedula de Ciudadania</option>
                     <option value="pasaporte">Pasaporte</option>
                     <option value="TarjetaIdentidad">Tarjeta de Identidad</option>
                 </select>
             </div>
 
             <div class="agrupacion">
-                <label for="DNI">Número de documento:</label>
+                <label for="DNI">Numero de documento:</label>
                 <input type="text" id="DNI" name="DNI" class="entrada" pattern="[0-9]+" required>
             </div>
 
@@ -40,7 +40,7 @@
             </div>
 
             <div class="agrupacion">
-                <label for="correo">Correo electrónico:</label>
+                <label for="correo">Correo electronico:</label>
                 <input type="email" id="correo" name="correo" class="entrada" required>
             </div>
 
@@ -49,7 +49,7 @@
                 
                 <div class="radio-group">
                     <input type="radio" id="DatosSi" name="confirmacionDatos" value="si" class="form-radio" required>
-                    <label for="DatosSi">Sí</label>
+                    <label for="DatosSi">Si</label>
                 </div>
 
                 <div class="radio-group">
@@ -58,7 +58,7 @@
                 </div>
             </div>
 
-            <button type="submit" class="form-btn">Enviar</button>
+            <button type="submit" class="boton">Enviar</button>
         </form>
     </div>
 
